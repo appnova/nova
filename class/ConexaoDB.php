@@ -1,5 +1,5 @@
 <?php
-		class ConexaoMySql{
+		class ConexaoDB{
 			
 			public function __construct($nome, $senha){
 			

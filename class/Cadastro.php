@@ -1,5 +1,7 @@
 <?php
 	
+	require_once "config/autoload.php";
+
 	class Cadastro{
 		
 		//Dados a serem recebidos para o cadastro ser efetuado
@@ -35,7 +37,7 @@
 		public function inserirDados(){
 			
 			//Conectando BD
-			$conn = new Conexao('root', '');
+			$conn = new ConexaoDB('root', '');
 			$db = $conn->connect();
 
 			//Preparando sql
