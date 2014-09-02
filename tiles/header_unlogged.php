@@ -9,7 +9,7 @@
 				<input type="password" name="senha" id="senha" placeholder="Password" value="" class="input_dados" required/>
 				<input type="submit" name="submit_login" class="submit_login" class="botao" value="Login"/>
 			</form>
-			<?php require 'fb_login.php'; ?>
+			<?php require 'tiles/fb_login.php'; ?>
 			</div>
 			<!--END Form Login-->
 		</div>
