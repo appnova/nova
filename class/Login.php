@@ -1,6 +1,6 @@
 <?php
 	
-	class VerificarLogin{
+	class Login{
 
 		private $email;
 		private $senha;
