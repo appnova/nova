@@ -1,0 +1,7 @@
+{
+    "require": 
+    {
+      "respect/validation": "0.7.*@dev",
+      "facebook/php-sdk-v4" : "4.0.*"
+    }
+}
